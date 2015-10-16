@@ -71,7 +71,7 @@ for j=1:max_iter
     
 end
 
-x1_val=@(x2) (1/2 - x_out(3)-x_out(1)*x2)/x_out(2);
+x1_val=@(x2) (1/2 - x_out(3)-x_out(2)*x2)/x_out(1);
 
 
 figure()
